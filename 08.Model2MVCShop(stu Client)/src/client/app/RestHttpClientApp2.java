@@ -28,8 +28,8 @@ public class RestHttpClientApp2 {
 
 //		System.out.println("\n====================================\n");
 //		// 1.2 Http Post 방식 Request : CodeHaus lib 사용
-//		RestHttpClientApp2.getJsonProductTest_Codehaus();
-		RestHttpClientApp2.addJsonProductTest_Codehaus();
+		RestHttpClientApp2.getJsonProductTest_Codehaus();
+//		RestHttpClientApp2.addJsonProductTest_Codehaus();
 	}
 
 	public static void addJsonProductTest_Codehaus() throws Exception{
