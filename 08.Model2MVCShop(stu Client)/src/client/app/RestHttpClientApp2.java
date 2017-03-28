@@ -18,8 +18,6 @@ import org.json.simple.JSONValue;
 import com.model2.mvc.service.domain.Product;
 import com.model2.mvc.service.domain.User;
 
-
-
 public class RestHttpClientApp2 {
 	
 	// main Method
@@ -31,7 +29,6 @@ public class RestHttpClientApp2 {
 		RestHttpClientApp2.getJsonProductTest_Codehaus();
 //		RestHttpClientApp2.addJsonProductTest_Codehaus();
 	}
-
 	public static void addJsonProductTest_Codehaus() throws Exception{
 		
 		// HttpClient : Http Protocol 의 client 추상화 
@@ -93,7 +90,6 @@ public class RestHttpClientApp2 {
 		Product product01 = objectMapper.readValue(jsonobj.get("product").toString(), Product.class);
 		 System.out.println(product01);*/
 	}	
-
 	public static void getJsonProductTest_Codehaus() throws Exception{
 		
 		// HttpClient : Http Protocol 의 client 추상화 
